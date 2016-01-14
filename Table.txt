@@ -1,0 +1,11 @@
+CREATE TABLE tanklad(
+	id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	tanklad_nimi VARCHAR(30),
+	tanklad_aadress VARCHAR(30),
+	tanklad_kohvik VARCHAR(10),
+	kutus95 INT,
+	kutus98 INT,
+	kutusdiisel INT,
+	);
+	
+INSERT INTO tanklad (tanklad_nimi, tanklad_aadress, tanklad_kohvik, kutus95, kutus98, kutusdiisel) VALUES ('Olerex', 'Sole50', 'Ei', 1.60, 1.20, 0.90);
